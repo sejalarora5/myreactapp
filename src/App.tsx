@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/Functional Component/Home';
 import Dashboard from './components/Functional Component/Dashboard';
 import LoginForm from './components/Functional Component/LoginForm';
+import StyledComponent from './components/Functional Component/StyledComponent';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<LoginForm />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/styling" element={<StyledComponent />} />
         </Routes>
       </BrowserRouter>
     </Provider>

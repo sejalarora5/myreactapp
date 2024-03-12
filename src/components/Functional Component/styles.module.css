@@ -1,0 +1,12 @@
+/* styles.module.css */
+.container {
+    background-color: thistle;
+    padding: 20px;
+    border-radius: 5px;
+}
+  
+.text {
+    color: navy;
+    font-size: 18px;
+    font-weight: bold;
+}

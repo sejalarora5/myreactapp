@@ -1,0 +1,21 @@
+/* styles.css*/
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+.text {
+    color: pink;
+    font-size: 18px;
+    font-weight: bold;
+}
+.counterDiv {
+    display: flex;
+    background-color: white;
+    justify-content:space-evenly;
+    align-items: center;
+  }
+.counterButton {
+    padding: 10px; 
+}
